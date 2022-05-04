@@ -1,0 +1,13 @@
+$color-principal: #619aad;
+
+footer{
+    width: 100%;
+    background-color: $color-principal ;
+    height: 100px;
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+}
+ .bi-facebook, .bi-instagram, .bi-whatsapp{
+     color: whitesmoke;
+ }

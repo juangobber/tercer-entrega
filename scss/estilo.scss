@@ -1,0 +1,65 @@
+@import "footer";
+
+$colores:(
+    azul-principal: #619aad,
+    gris-medio: #8b8b8b,
+    gris-claro: #c7c7c7,
+    gris-oscuro:darkslategray
+);
+.transition{
+    transition: all 0.3s;
+}
+@mixin tamano($alto, $ancho){
+    height: $alto;
+    width: $ancho;
+}
+
+.navbar-brand, h1{
+    font-family: 'Orelega One', cursive;
+}
+.alto-8{
+    @include tamano (8rem, auto)
+}
+
+.logo{
+    @include tamano (auto, 12rem)
+}
+
+.nav-link{
+    :hover{
+        font-weight: bolder;
+        color: map-get( $colores , gris-oscuro);
+        @extend .transition;
+    }
+}
+
+.activo {
+    font-weight: bolder;
+    color: map-get( $colores , azul-principal) !important;
+}
+
+ .alto-formulario {
+     height: 15rem;
+ }
+
+ .btn-secondary{
+     background-color: map-get( $colores , azul-principal);
+     border: 0px;
+        :hover{
+            @extend .transition;
+            box-shadow: 2rem #8b8b8b;
+        }
+ }
+ .card{
+     :hover{
+        @extend .transition;
+        box-shadow: 0px 0px 3rem 0.5rem map-get( $colores , gris-claro);
+     }
+    }
+
+ .card-img-top{
+    object-fit:  contain;
+    position: relative;
+    top: 0.6rem;
+ }
+

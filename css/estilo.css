@@ -1,0 +1,49 @@
+footer {
+  width: 100%;
+  background-color: #619aad;
+  height: 100px;
+  display: flex;
+  padding: 3rem;
+  justify-content: center; }
+
+.bi-facebook, .bi-instagram, .bi-whatsapp {
+  color: whitesmoke; }
+
+.transition, .nav-link :hover, .btn-secondary :hover, .card :hover {
+  transition: all 0.3s; }
+
+.navbar-brand, h1 {
+  font-family: 'Orelega One', cursive; }
+
+.alto-8 {
+  height: 8rem;
+  width: auto; }
+
+.logo {
+  height: auto;
+  width: 12rem; }
+
+.nav-link :hover {
+  font-weight: bolder;
+  color: darkslategray; }
+
+.activo {
+  font-weight: bolder;
+  color: #619aad !important; }
+
+.alto-formulario {
+  height: 15rem; }
+
+.btn-secondary {
+  background-color: #619aad;
+  border: 0px; }
+  .btn-secondary :hover {
+    box-shadow: 2rem #8b8b8b; }
+
+.card :hover {
+  box-shadow: 0px 0px 3rem 0.5rem #c7c7c7; }
+
+.card-img-top {
+  object-fit: contain;
+  position: relative;
+  top: 0.6rem; }
