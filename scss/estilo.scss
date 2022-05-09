@@ -50,12 +50,6 @@ $colores:(
             box-shadow: 2rem #8b8b8b;
         }
  }
- .card{
-     :hover{
-        @extend .transition;
-        box-shadow: 0px 0px 3rem 0.5rem map-get( $colores , gris-claro);
-     }
-    }
 
  .card-img-top{
     object-fit:  contain;
@@ -63,3 +57,6 @@ $colores:(
     top: 0.6rem;
  }
 
+.parrafo-sobremi{
+    font-size: larger;
+}
